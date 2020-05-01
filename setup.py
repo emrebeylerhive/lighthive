@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lighthive',
-    version='0.2.4',
+    version='0.2.5',
     packages=find_packages('.'),
     url='http://github.com/emrebeylerhive/lighthive',
     license='MIT',
