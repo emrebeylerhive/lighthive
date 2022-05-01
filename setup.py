@@ -9,7 +9,7 @@ setup(
     author='emrebeylerhive',
     author_email='emrebeylerhive@proton.me',
     description='A light python client to interact with the HIVE blockchain',
-    install_requires=["requests", "backoff", "ecdsa", "dateutils", "httpx"],
+    install_requires=["requests", "backoff~=2.0", "ecdsa", "dateutils", "httpx", "cachetools"],
     extras_require={
         'dev': [
             'requests_mock',
